@@ -8,16 +8,15 @@ import exists from '@wrote/exists'
 
 %~%
 
-```## exists
+```## async exists => boolean
 [
-  ["arg1", "string"],
-  ["arg2?", "boolean"]
+  ["path", "string"]
 ]
 ```
 
-Call this function to get the result you want.
+Returns whether the path exists or not. If it exists, returns the `lstat` result, otherwise returns `null`.
 
-%TYPEDEF types/index.xml%
+<!-- %TYPEDEF types/index.xml% -->
 
 %EXAMPLE: example/example.js, ../src => @wrote/exists%
 %FORK example example/example%

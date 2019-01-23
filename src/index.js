@@ -7,6 +7,7 @@ import { lstat } from 'fs'
  */
 const exists = async (path) => {
   try {
+    /** @type {import('fs').Stats} */
     const ls = await makePromise(lstat, path)
     return ls
   } catch (err) {
