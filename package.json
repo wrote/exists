@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Check If The File Or Directory Exists, And Return Stats.",
   "main": "build",
+  "module": "src",
   "scripts": {
     "t": "zoroaster -a",
     "test": "yarn t test/spec test/mask",
@@ -20,7 +21,8 @@
     "example/": "yarn e example/example.js"
   },
   "files": [
-    "build"
+    "build",
+    "src"
   ],
   "repository": {
     "type": "git",
@@ -42,5 +44,8 @@
     "eslint-config-artdeco": "1.0.1",
     "yarn-s": "1.1.0",
     "zoroaster": "3.6.6"
+  },
+  "dependencies": {
+    "makepromise": "3.0.2"
   }
 }

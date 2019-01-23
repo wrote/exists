@@ -1,26 +1,17 @@
-import { debuglog } from 'util'
-
-const LOG = debuglog('@wrote/exists')
+import makePromise from 'makepromise'
+import { lstat } from 'fs'
 
 /**
  * Check If The File Or Directory Exists, And Return Stats.
- * @param {Config} [config] Options for the program.
- * @param {boolean} [config.shouldRun=true] A boolean option. Default `true`.
- * @param {string} config.text A text to return.
+ * @param {string} path The path to check for existence.
  */
-export default async function exists(config = {}) {
-  const {
-    shouldRun = true,
-    text,
-  } = config
-  if (!shouldRun) return
-  LOG('@wrote/exists called with %s', text)
-  return text
+const exists = async (path) => {
+  try {
+    const ls = await makePromise(lstat, path)
+    return ls
+  } catch (err) {
+    return null
+  }
 }
 
-/* documentary types/index.xml */
-/**
- * @typedef {Object} Config Options for the program.
- * @prop {boolean} [shouldRun=true] A boolean option. Default `true`.
- * @prop {string} text A text to return.
- */
+export default exists
