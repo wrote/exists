@@ -1,30 +1,18 @@
-const { debuglog } = require('util');
-
-const LOG = debuglog('@wrote/exists')
+let makePromise = require('makepromise'); if (makePromise && makePromise.__esModule) makePromise = makePromise.default;
+const { lstat } = require('fs');
 
 /**
  * Check If The File Or Directory Exists, And Return Stats.
- * @param {Config} [config] Options for the program.
- * @param {boolean} [config.shouldRun=true] A boolean option. Default `true`.
- * @param {string} config.text A text to return.
+ * @param {string} path The path to check for existence.
  */
-               async function exists(config = {}) {
-  const {
-    shouldRun = true,
-    text,
-  } = config
-  if (!shouldRun) return
-  LOG('@wrote/exists called with %s', text)
-  return text
+const exists = async (path) => {
+  try {
+    /** @type {import('fs').Stats} */
+    const ls = await makePromise(lstat, path)
+    return ls
+  } catch (err) {
+    return null
+  }
 }
 
-/* documentary types/index.xml */
-/**
- * @typedef {Object} Config Options for the program.
- * @prop {boolean} [shouldRun=true] A boolean option. Default `true`.
- * @prop {string} text A text to return.
- */
-
-
-module.exports = exists
-//# sourceMappingURL=index.js.map
+module.exports=exists
