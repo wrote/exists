@@ -61,10 +61,10 @@ hello exists: null
         <img src="https://raw.githubusercontent.com/wrote/wrote/master/images/artdeco.png" alt="Art Deco" />
       </a>
     </th>
-    <th>© <a href="https://artd.eco">Art Deco</a> for <a href="https://wrote.cc">Idio</a> 2019</th>
+    <th>© <a href="https://artd.eco">Art Deco</a> for <a href="https://wrote.cc">Wrote</a> 2019</th>
     <th>
       <a href="https://wrote.cc">
-        <img src="https://avatars3.githubusercontent.com/u/40831417?s=100" width="100" alt="Idio" />
+        <img src="https://avatars3.githubusercontent.com/u/40831417?s=100" width="100" alt="Wrote" />
       </a>
     </th>
     <th>
