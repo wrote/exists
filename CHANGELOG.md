@@ -1,3 +1,9 @@
+## 2 April 2019
+
+### [1.0.2](https://github.com/wrote/exists/compare/v1.0.1...v1.0.2)
+
+- [deps] Update `makepromise`.
+
 ## 24 January 2019
 
 ### 1.0.1
