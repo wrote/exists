@@ -1,6 +1,6 @@
 {
   "name": "@wrote/exists",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Check If The File Or Directory Exists, And Return Stats.",
   "main": "build",
   "module": "src/index.js",
