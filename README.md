@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/%40wrote%2Fexists.svg)](https://npmjs.org/package/@wrote/exists)
 
-`@wrote/exists` is Check If The File Or Directory Exists, And Return Stats.
+`@wrote/exists` Checks If The File Or Directory Exists, And Return Stats.
 
 ```sh
 yarn add -E @wrote/exists
@@ -55,27 +55,26 @@ hello exists: null
 ## Copyright
 
 <table>
-<tr>
-  <th>
-    <a href="https://artd.eco">
-      <img src="https://github.com/wrote/wrote/raw/master/images/artdeco.png" alt="Art Deco">
-    </a>
-  </th>
-  <th>&copy; <a href="https://artd.eco">Art Deco</a> for <a href="https://wrote.cc">Wrote</a> 2019</th>
-  <th>
-    <a href="https://wrote.cc">
-      <img src="https://github.com/wrote/wrote/raw/master/images/wrote.jpeg" alt="Wrote Library">
-    </a>
-  </th>
-  <th>
-    <a href="https://www.technation.sucks" title="Tech Nation Visa">
-      <img src="https://github.com/wrote/wrote/raw/master/images/technation.gif" alt="Tech Nation Visa">
-    </a>
-  </th>
-  <th>
-    <a href="https://www.technation.sucks">Tech Nation Visa Sucks</a>
-  </th>
-</tr>
+  <tr>
+    <th>
+      <a href="https://artd.eco">
+        <img src="https://raw.githubusercontent.com/wrote/wrote/master/images/artdeco.png" alt="Art Deco" />
+      </a>
+    </th>
+    <th>© <a href="https://artd.eco">Art Deco</a> for <a href="https://wrote.cc">Idio</a> 2019</th>
+    <th>
+      <a href="https://wrote.cc">
+        <img src="https://avatars3.githubusercontent.com/u/40831417?s=100" width="100" alt="Idio" />
+      </a>
+    </th>
+    <th>
+      <a href="https://www.technation.sucks" title="Tech Nation Visa">
+        <img src="https://raw.githubusercontent.com/artdecoweb/www.technation.sucks/master/anim.gif"
+          alt="Tech Nation Visa" />
+      </a>
+    </th>
+    <th><a href="https://www.technation.sucks">Tech Nation Visa Sucks</a></th>
+  </tr>
 </table>
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/-1.svg?sanitize=true"></a></p>
