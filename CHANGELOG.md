@@ -1,3 +1,9 @@
+## 18 April 2019
+
+### [1.0.4](https://github.com/wrote/exists/compare/v1.0.3...v1.0.4)
+
+- [deps] Update and unlock dependencies.
+
 ## 2 April 2019
 
 ### [1.0.3](https://github.com/wrote/exists/compare/v1.0.2...v1.0.3)
