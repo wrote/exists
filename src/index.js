@@ -7,8 +7,7 @@ import { lstat } from 'fs'
  */
 const exists = async (path) => {
   try {
-    /** @type {import('fs').Stats} */
-    const ls = await makePromise(lstat, path)
+    const ls = /** @type {fs.Stats} */ (await makePromise(lstat, path))
     return ls
   } catch (err) {
     return null
@@ -16,3 +15,8 @@ const exists = async (path) => {
 }
 
 export default exists
+
+/**
+ * @suppress {nonStandardJsDocs}
+ * @typedef {import('fs').Stats} fs.Stats
+ */
