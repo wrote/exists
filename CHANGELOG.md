@@ -1,3 +1,9 @@
+## 22 April 2019
+
+### [1.0.5](https://github.com/wrote/exists/compare/v1.0.4...v1.0.5)
+
+- [types] Cast the `fs.Stats` type for the _makePromise_ result.
+
 ## 18 April 2019
 
 ### [1.0.4](https://github.com/wrote/exists/compare/v1.0.3...v1.0.4)
