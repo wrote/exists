@@ -11,13 +11,12 @@
     "mask": "yarn t test/mask",
     "test-build": "ALAMODE_ENV=test-build yarn test",
     "lint": "eslint .",
-    "doc": "NODE_DEBUG=doc doc documentary -o README.md",
+    "doc": "NODE_DEBUG=doc doc -o README.md",
     "b": "alamode src -o build -s",
     "d": "yarn-s d1",
     "d1": "NODE_DEBUG=doc doc src/index.js -g",
     "build": "yarn-s d b doc",
-    "rec": "NODE_DEBUG=appshot appshot -T 23 -a Terminal -y 150 -f",
-    "e": "node example",
+    "e": "alanode",
     "example/": "yarn e example/example.js"
   },
   "files": [
@@ -40,7 +39,7 @@
   "homepage": "https://github.com/wrote/exists#readme",
   "devDependencies": {
     "alamode": "^1.9.3",
-    "documentary": "^1.23.4",
+    "documentary": "^1.24.1",
     "eslint-config-artdeco": "1.0.1",
     "yarn-s": "1.1.0",
     "zoroaster": "^3.11.6"

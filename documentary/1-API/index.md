@@ -18,7 +18,7 @@ Returns whether the path exists or not. If it exists, returns the `lstat` result
 
 <!-- %TYPEDEF types/index.xml% -->
 
-%EXAMPLE: example/example, ../src => @wrote/exists%
-%FORK example/example%
+%EXAMPLE: example, ../src => @wrote/exists%
+%FORK example%
 
 %~%
